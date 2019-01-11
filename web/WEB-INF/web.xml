@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app>
 	<servlet>
+    	<servlet-name>ForeServlet</servlet-name>
+    	<servlet-class>tmall.servlet.ForeServlet</servlet-class>
+	</servlet>
+ 
+	<servlet-mapping>
+    	<servlet-name>ForeServlet</servlet-name>
+    	<url-pattern>/foreServlet</url-pattern>
+	</servlet-mapping>
+	
+    <servlet>
+        <servlet-name>ForeServlet</servlet-name>
+        <servlet-class>tmall.servlet.ForeServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>ForeServlet</servlet-name>
+        <url-pattern>/foreServlet</url-pattern>
+    </servlet-mapping>
+ 
+    <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>tmall.servlet.OrderServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/orderServlet</url-pattern>
+    </servlet-mapping>
+     
+	<servlet>
         <servlet-name>UserServlet</servlet-name>
         <servlet-class>tmall.servlet.UserServlet</servlet-class>
     </servlet>
