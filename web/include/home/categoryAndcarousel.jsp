@@ -5,7 +5,7 @@
 <script>
 function showProductsAsideCategorys(cid){
 	$("div.eachCategory[cid="+cid+"]").css("background-color","white");
-	$("div.eachCategory[cid="+cid+"] a").css("color","#87CEFA");
+	$("div.eachCategory[cid="+cid+"] a").css("color","#DC143C");
 	$("div.productsAsideCategorys[cid="+cid+"]").show();
 }
 
@@ -38,13 +38,13 @@ $(function(){
 		var top = $(this).position().top;
 		var width = $(this).css("width");
 		var destLeft = parseInt(left) + parseInt(width)/2;
-		$("img#catear").css("left",destLeft);
-		$("img#catear").css("top",top-20);
-		$("img#catear").fadeIn(500);
+		$("img#nieeye").css("left",destLeft);
+		$("img#nieeye").css("top",top-35);
+		$("img#nieeye").fadeIn(500);
 				
 	});
 	$("div.rightMenu span").mouseleave(function(){
-		$("img#catear").hide();
+		$("img#nieeye").hide();
 	});
 	
 	var left = $("div#carousel-of-product").offset().left;
@@ -56,7 +56,7 @@ $(function(){
 });
 </script>
 
-<img src="img/site/catear.png" id="catear" class="catear"/>
+<img src="img/site/jier.png" id="nieeye" class="nieeye"/>
 	
 <div class="categoryWithCarousel">
 
@@ -70,11 +70,8 @@ $(function(){
 	</div>
 	
 	<div class="rightMenu">
-		<span><a href=""><img src="img/site/chaoshi.png"/></a></span>
-		<span><a href=""><img src="img/site/guoji.png"/></a></span>
-
 		<c:forEach items="${cs}" var="c" varStatus="st">
-			<c:if test="${st.count<=4}">
+			<c:if test="${st.count<=6}">
 				<span>
 				<a href="forecategory?cid=${c.id}">
 					${c.name}

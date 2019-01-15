@@ -6,11 +6,6 @@
 
 <div id="footer"  class="footer" style="display: block;">
 	
-    <div id="footer_ensure" class="footer_ensure">
-            <a href="#nowhere">
-            	<img src="img/site/ensure.png">
-            </a>
-    </div>
     
     <div id="footer_desc" class="footer_desc">
             <div class="descColumn">
@@ -41,15 +36,13 @@
 			    <a href="#nowhere" >其他服务</a>
 			</div>
             <div class="descColumn">
-			    <span class="descColumnTitle">手机天猫</span>
-			    <a href="#nowhere" ><img src="img/site/ma.png"></a> 
+			    <span class="descColumnTitle">QQ</span>
+			    <a href="#nowhere" ><img src="img/site/ma.png" height="100px"></a> 
 			</div>
 			
     </div>
     
     <div style="clear:both"></div>
-    
-    <img id="cateye" class="cateye" src="img/site/cateye.png">
     
     <div id="copyright" class="copyright">
 		<div class="white_link" >
@@ -77,7 +70,6 @@
 			<span>互联网药品信息服务资质证书编号：无</span>
 		    <div class="copyRightYear">&copy; 2018-2019 542宿舍 版权所有</div>
 		    <div>
-		    	<img src="img/site/copyRight1.jpg">
 		    	<img src="img/site/copyRight2.jpg">
 		    </div>
 		</div>
