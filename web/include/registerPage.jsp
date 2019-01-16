@@ -37,7 +37,7 @@ $(function(){
 })
 </script>
 
-
+<title>网上商城注册</title>
 
 <form method="post" action="foreregister" class="registerForm">
 

@@ -594,7 +594,7 @@ div.productUnit span.productReview {
 	border-left-width: 1px;
 	border-left-style: solid;
 	border-left-color: #EEEEEE;
-	border-right-width: 1px;
+	border-right-width: 0px;
 	border-right-style: solid;
 	border-right-color: #EEEEEE;
 }
@@ -630,7 +630,7 @@ div.productUnit div.productInfo {
 
 div.productUnit span.monthDeal, div.productUnit span.productReview {
 	display: inline-block;
-	width: 90px;
+	width: 106.84px;
 	height: 30px;
 	padding-top: 5px;
 	padding-left: 5px;
@@ -954,7 +954,7 @@ div.productParamterList span {
 a.selected {
 	border-left: 1px solid #cfbfb1;
 	border-right: 1px solid #cfbfb1;
-	color: #b10000;
+	color: #FF7F00;
 	display: inline-block;
 	font-weight: bold;
 	line-height: 46px;
@@ -964,7 +964,7 @@ a.selected {
 }
 
 a.selected:after {
-	border-color: #b00000 transparent transparent;
+	border-color: #FF7F00 transparent transparent;
 	border-style: solid;
 	border-width: 5px;
 	content: "";
@@ -978,7 +978,7 @@ a.selected:after {
 }
 
 a.selected:before {
-	border-color: #b00000;
+	border-color: #FF7F00;
 	border-style: solid;
 	border-width: 1px;
 	content: "";
@@ -997,11 +997,11 @@ a.productDetailTopReviewLink {
 }
 
 span.productDetailTopReviewLinkNumber {
-	color: #3355B9;
+	color: #DC143C;
 }
 
 span.productReviewTopReviewLinkNumber {
-	color: #3355B9;
+	color: #DC143C;
 }
 
 div.productDetailImagesPart img {
@@ -2169,17 +2169,11 @@ table.registerTable {
 
 div.registerSuccessDiv {
 	margin: 10px 20px;
-	font-size: 16px;
-	color: #3C3C3C;
-	padding: 164px 300px;
-	height: 190px;
-}
-div.registerSuccessDiv2{
-	height: 70px;
 	background-color: #F3FDF6;
 	border: 1px solid #DEF3E6;
-	padding: 15px;
-	text-align:center
+	font-size: 16px;
+	color: #3C3C3C;
+	padding: 20px 130px;
 }
 
 div.categoryPageDiv {
