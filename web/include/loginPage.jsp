@@ -34,7 +34,7 @@ $(function(){
 <div id="loginDiv" style="position: relative">
 
 	
-	<img id="loginBackgroundImg" class="loginBackgroundImg" src="img/site/loginBackground.png">
+	<img id="loginBackgroundImg" class="loginBackgroundImg" src="img/site/zongsi.jpg">
 	
 	<form class="loginForm" action="forelogin" method="post">
 		<div id="loginSmallDiv" class="loginSmallDiv">

@@ -1340,7 +1340,9 @@ button.submitOrderButton {
 }
 
 div.aliPayPageLogo {
-	margin: 20px;
+position: absolute;
+  left: 150px;
+  top: 50px;
 }
 
 div.aliPayPageDiv {
@@ -1501,6 +1503,7 @@ a.cartProductLink:hover {
 div.cartProductLinkOutDiv {
 	position: relative;
 	height: 80px;
+	vertical-align:middle;
 }
 
 div.cartProductLinkInnerDiv {
